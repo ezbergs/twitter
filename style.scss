@@ -2,12 +2,29 @@
     background-color: #17202A;
     display: flex;
     flex-direction: column;
+    left: 361px;
+    
     
 }
 
+.side-menu hr {
+  width: 0.5px;
+  position: absolute;
+  height: 2247px;
+  left: 361px;
+  top: 0px;
+  color: white;
+  margin: 0;
+}
+
 .icon {
-    padding: 25px;
+    padding-left: 117px;
     position: relative;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    
+    padding-top: 24px;
 }
 
 body {
@@ -17,8 +34,13 @@ body {
 
 .text {
   color: white;
-  padding: 10px;   
+  padding-left: 161px;  
   text-align: center;
+  display: flex;
+  height: 24px;
+  width: 25px;
+  align-items: center;
+  
 }
 
 
@@ -30,4 +52,6 @@ a {
     text-decoration: none;
     font-style: normal;
     font-family: Helvetica Neue;
-}
+   height: 40px;
+   box-sizing: border-box;
+} 
