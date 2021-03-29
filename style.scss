@@ -18,13 +18,10 @@
 }
 
 .icon {
-    padding-left: 117px;
+    
     position: relative;
     width: 25px;
-    display: flex;
     align-items: center;
-    
-    padding-top: 24px;
 }
 
 body {
@@ -34,19 +31,16 @@ body {
 
 .text {
   color: white;
-  padding-left: 161px;  
   text-align: center;
-  display: flex;
   height: 24px;
   width: 25px;
   align-items: center;
-  
 }
 
 
 a {
     width: 250px;
-    display: inline-block;
+    display: flex;
     align-items: center;
     font-weight: bold;
     text-decoration: none;
